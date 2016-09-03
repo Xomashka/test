@@ -1,0 +1,49 @@
+ul {
+    list-style-image: url('221.png');
+    list-style-type: circle;
+    list-style-position: inside;
+}
+div {border: 1px solid;
+    font-weight: bold;
+    margin: 100px;
+}
+.st {position: static;
+    top: 0px;
+    left: 0px;
+    background: rebeccapurple;
+}
+
+
+.fix {position: fixed;
+    background: burlywood;
+    left: 0;
+    right: 0;
+    top: 0px;
+
+}
+
+
+.rel, .rel2 {position: relative;
+    top: 0;
+    left: 0;
+    background: red;
+
+}
+.abs, .abs2 {position: absolute;
+    top: 0;
+    left: 0;
+    background: green;
+}
+
+.img {display: inline-block;
+    background: green;
+    float: right;
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+.d {
+    width: 30px;
+    margin: 0 auto;
+    border: 1px solid;
+}
